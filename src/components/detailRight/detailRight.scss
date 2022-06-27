@@ -1,0 +1,86 @@
+.detailRight {
+    padding: 100px 10px;
+    .center-text-detail {
+        margin: 20px 0;
+
+        span {
+            display: block;
+            font-size: 1.65rem;
+            font-weight: 800;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 0 8%;
+
+            del {
+                color: #999;
+                font-size: 1.25rem;
+                font-weight: 300;
+                text-decoration: line-through;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+
+        p {
+            color: #d63e57;
+            font-size: .925rem;
+            font-weight: 600;
+            margin-top: 2px;
+            margin-bottom: 10px;
+        }
+
+        .btn-course-detail {
+            color: #fff;
+            border: 1px solid #ff1f59;
+            border-color: #ff1f59;
+            background-color: #ff1f59;
+            padding: 22px 0px;
+            width: 100%;
+            font-size: 17px;
+            transition: .3s ease-in-out;
+            margin-bottom: 15px;
+
+            &:hover {
+                border: 1px solid black;
+                background-color: white;
+                color: black;
+
+            }
+        }
+
+        .btn-course-detail-two {
+            background-color: white;
+            color: #333;
+            border: 1px solid #e3e3e3;
+            font-size: 16px;
+            width: 100%;
+            padding: 22px 0;
+            transition: .3s ease-in-out;
+
+            &:hover {
+                border: 1px solid #ff1f59;
+                color: white;
+                background-color: #ff1f59;
+            }
+        }
+    }
+
+    .bottom-text-detail {
+        padding-left: 20px;
+        h3 {
+            font-size: 1.2rem;
+            line-height: 1;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            li {
+                color: #656565;
+                font-size: 1rem;
+                line-height: 1;
+                margin-bottom: 8px;
+                list-style: none;
+            }
+        }
+    }
+}

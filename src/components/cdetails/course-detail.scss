@@ -1,0 +1,98 @@
+.course-detail{
+    height: 220vh;
+    padding-top:3rem;
+    .detail-text-area{
+        h1{
+            font-weight: 800;
+            padding-right: 10%;
+            margin-bottom: 20px;
+            font-size: 1.7rem;
+        }
+        h5{
+            font-size: 1.125rem;
+          
+            font-family: Arial, Helvetica, sans-serif;
+        }
+             p{
+            color: #888;
+            font-size: 1rem;
+            padding-top: 3rem;
+            font-weight: 400;
+            margin-bottom: 2px;
+        }
+        .what-you-learn{
+            background-color: #f6f6f6;
+            border: 1px solid #f0f0f0;
+            margin: 45px 0;
+            padding: 30px 25px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            h2{
+    color: #283034;
+    font-family: Muli,sans-serif;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+
+            }
+            ul{
+                li{
+                    list-style: disc;
+              margin-left: 15px;
+              padding-top: 10px;
+                }
+            }
+        }
+        .requirements{
+            h3{
+            font-weight: 800;
+            font-size: 1.7rem;
+            }
+            label{
+        font-size: 1.125rem;
+       color: black;
+       padding-top: 1rem;
+
+        font-family: Arial, Helvetica, sans-serif;  
+            }
+            ul{
+                li{
+                    padding-top: 6px;
+                }
+            }
+        }
+        .c-desc{
+
+            h1{
+                color: #283034;
+                font-family: Muli,sans-serif;
+                font-weight: 700;
+                letter-spacing: -.5px;
+                font-size: 1.25rem;
+                margin-top: 1rem;
+            
+                        }
+                        p{
+                   font-size: 15px;
+                    font-family: Arial, Helvetica, sans-serif; 
+                    color: black;
+                    padding-bottom: 1rem;
+                        }
+                        ul{
+                            li{
+                                list-style: disc;
+                          margin-left: 15px;
+                          padding-top: 10px;
+                            }
+                        }
+        }
+    }
+    .detail-card-box{
+        background-color: #fff;
+        border: 1px solid #eee;
+        padding: 8px;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    }
+    }

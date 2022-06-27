@@ -1,0 +1,107 @@
+.one-course{
+    height: 120vh;
+
+    .course-header{
+      .text-header {
+          h3{
+           color: #283034;
+    font-family: Muli,sans-serif;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    font-size: 2.5rem;
+          }
+          p{
+            color: #888;
+            margin-bottom: 0;
+            font-size: 1.125rem
+          }
+      }
+    }
+
+.one-course-area{
+  
+    .card-box{
+    
+   margin: auto;
+      padding: 25px 20px;
+      text-align: left;
+        border-radius: 0 0 6px 6px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        transition: .4s;
+        cursor: pointer;
+        user-select: none;
+        &:hover{
+          transform: translateY(5px);
+        }
+
+        img{
+         width: 100%;
+        box-sizing: border-box;
+      
+
+        }
+        h1{
+          padding-top: 1rem;
+          color: #283034;
+          font-family: Muli,sans-serif;
+          font-weight: 700;
+          font-size: 1.115rem;
+          letter-spacing: -.5px;
+        }
+        .teacher{
+          padding-top: 1rem;
+          text-align: left;
+          background-color: beige;
+          padding: 10px;
+          border-radius: 7px;
+          cursor: pointer;
+          user-select: none;
+          color: #283034;
+          transition: .4s all;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+        .review{
+          span{
+            color: #888;
+            padding-top: 10px;
+            font-size: .925rem;
+            line-height: 1;
+            font-weight: 400;
+            top: 1px;
+          }
+        }
+        .price{
+        padding-top: 10px;
+          .old-price{
+            text-decoration: line-through;
+            padding-left: 1rem;
+            color: #888;
+
+          }
+          .new-price{
+            font-size: 20px;
+            font-weight: 600;
+          }
+        }
+       p{
+        button{
+          border:none ;
+         outline: 0;
+         padding: 12px;
+         color: white;
+         background-color: #000;
+         text-align: center;
+         cursor: pointer;
+         width: 100%;
+         font-size: 18px;
+         &:hover{
+           opacity: .8;
+         }
+       }
+       }
+        }
+    }
+}

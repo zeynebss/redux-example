@@ -1,0 +1,47 @@
+.slider-area{
+    .slider-item{
+        height: 100vh;
+        position: relative;
+        .slider-content{
+            position: absolute;
+            transform: translateY(-25%);
+            top: 25%;
+            left: 5.5%;
+            z-index: 5;
+            width: 100%;
+            .slider-box-1{
+             
+                background-color: white;
+               padding: 2rem;
+               h1{
+                   font-size: 30px;
+                   font-family:     Georgia, 'Times New Roman', Times, serif;
+                   font-weight: 800;
+                   margin-bottom: 5px;
+
+               }
+              label{
+                  text-decoration: underline;
+                  color: blue;
+              }
+              
+            }
+          .slider-box-2{
+            background-color: white;
+            padding: 2rem;
+            h1{
+                font-size: 30px;
+                font-family:     Georgia, 'Times New Roman', Times, serif;
+                font-weight: 800;
+                margin-bottom: 5px;
+
+            }
+            span{
+                font-size: 20px;
+            }
+          }
+        }
+  
+    }
+
+}
